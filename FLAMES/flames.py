@@ -4,7 +4,7 @@ def commonchar(name1,name2):
    y=((len(name1))+(len(name2)))-(2*x)
    return y
 def Flames(hell,r):
-    z = r-1
+    z =(r%7)-1
     if len(hell)==1:
        return hell[0]
     else :
