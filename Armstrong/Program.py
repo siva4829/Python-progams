@@ -7,4 +7,4 @@ while num>0:
     temp=num%10
     armstrong+=temp**length
     num//=10
-print(armstrong)
+print("It is an armstrong number")if(armstrong==original)else print("Not an armstrong number")
